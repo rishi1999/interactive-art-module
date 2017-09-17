@@ -101,7 +101,7 @@ public class Main extends Canvas implements Runnable {
 			h.get(i).tick();
 		}
 
-		if (frameCounter % 3 == 0) {
+		/*if (frameCounter % 3 == 0) {
 			if (frameUp) {
 				Main.size += 1;
 			} else {
@@ -114,7 +114,7 @@ public class Main extends Canvas implements Runnable {
 		} else if (Main.size < 400) {
 			frameUp = true;
 		}
-		frameCounter++;
+		frameCounter++;*/
 	}
 
 	public void render() {
